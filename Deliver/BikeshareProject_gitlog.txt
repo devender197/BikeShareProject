@@ -1,0 +1,308 @@
+$ git init # Initialize a Git repository in the Bikeshare/ project directory.
+Initialized empty Git repository in E:/UNIVERSITY_OF_THE_PACIFIC/13 Week Assignment/Software Method/Bikeshare/.git/
+
+$ git add --all
+warning: LF will be replaced by CRLF in Data/daily.csv.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Data/data_dictionary.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Data/hourly.csv.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Notebooks/.ipynb_checkpoints/BikeShare_Project-checkpoint.ipynb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Notebooks/BikeShare_Project.ipynb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Reading/NOTES.txt.
+The file will have its original line endings in your working directory.
+
+$ git commit -m 'Data Fetched'
+[master (root-commit) ba369fc] Data Fetched
+ 9 files changed, 18287 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Data/daily.csv
+ create mode 100644 Data/data_dictionary.txt
+ create mode 100644 Data/hourly.csv
+ create mode 100644 Notebooks/.ipynb_checkpoints/BikeShare_Project-checkpoint.ipynb
+ create mode 100644 Notebooks/BikeShare_Project.ipynb
+ create mode 100644 Reading/LinearRegression_fulltext.pdf
+ create mode 100644 Reading/NOTES.txt
+ create mode 100644 Reading/slides-linear-regression.pdf
+
+$ git log
+commit ba369fc63bdbe9aa02dae72ed40820d381d259b2 (HEAD -> master)
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 18:23:21 2020 -0700
+
+    Data Fetched
+
+$ $ git add .
+warning: LF will be replaced by CRLF in Notebooks/BikeShare_Project.ipynb.
+The file will have its original line endings in your working directory.
+
+$ git commit -m 'Data Co-relation, NA and outlier detection '
+[master ad19124] Data Co-relation, NA and outlier detection
+ 1 file changed, 204 insertions(+), 384 deletions(-)
+ rewrite Notebooks/BikeShare_Project.ipynb (88%)
+ 
+$ git log
+commit ad19124620c0d723029bf844269647d3344d6313 (HEAD -> master)
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 14:34:23 2020 -0700
+
+    Data Co-relation, NA and outlier detection
+
+commit 0f250558a8d0f75b5c22ea6959a5b65dfed48ccc
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 19:43:47 2020 -0700
+
+    second commit
+
+commit ba369fc63bdbe9aa02dae72ed40820d381d259b2
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 18:23:21 2020 -0700
+
+    Data Fetched
+
+git add .
+warning: LF will be replaced by CRLF in Notebooks/.ipynb_checkpoints/BikeShare_Project-checkpoint.ipynb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Notebooks/BikeShare_Project.ipynb.
+The file will have its original line endings in your working directory.
+
+$ git commit -m 'Data Analysis complete'
+[master ba880af] Data Analysis complete
+ 2 files changed, 1209 insertions(+), 13 deletions(-)
+
+
+$ git log
+commit ba880afbb65c6eb30c348da3fb22e50dfbb4af90 (HEAD -> master)
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 15:57:20 2020 -0700
+
+    Data Analysis complete
+
+commit ad19124620c0d723029bf844269647d3344d6313
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 14:34:23 2020 -0700
+
+    Data Co-relation, NA and outlier detection
+
+commit 0f250558a8d0f75b5c22ea6959a5b65dfed48ccc
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 19:43:47 2020 -0700
+
+    second commit
+
+commit ba369fc63bdbe9aa02dae72ed40820d381d259b2
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 18:23:21 2020 -0700
+
+    Data Fetched
+
+$ git add .
+warning: LF will be replaced by CRLF in Notebooks/BikeShare_Project.ipynb.
+The file will have its original line endings in your working directory.
+
+$ git commit -m 'Adding linear regression model'
+[master cc2e802] Adding linear regression model
+ 1 file changed, 29 insertions(+), 5 deletions(-)
+ 
+$ git log
+commit cc2e80293b2667378111b9406b883a896dee0d06 (HEAD -> master)
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 16:24:52 2020 -0700
+
+    Adding linear regression model
+
+commit ba880afbb65c6eb30c348da3fb22e50dfbb4af90
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 15:57:20 2020 -0700
+
+    Data Analysis complete
+
+commit ad19124620c0d723029bf844269647d3344d6313
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 14:34:23 2020 -0700
+
+    Data Co-relation, NA and outlier detection
+
+commit 0f250558a8d0f75b5c22ea6959a5b65dfed48ccc
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 19:43:47 2020 -0700
+
+    second commit
+
+commit ba369fc63bdbe9aa02dae72ed40820d381d259b2
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 18:23:21 2020 -0700
+
+    Data Fetched
+
+$ git commit -m 'Linear Regression model completed and Deep NN added'
+[master fb1945f] Linear Regression model completed and Deep NN added
+ 1 file changed, 618 insertions(+), 727 deletions(-)
+ rewrite Notebooks/BikeShare_Project.ipynb (91%)
+ 
+ 
+ $ git log
+commit fb1945fef29c10b948fd5194f8f83a7e8cfa9b47 (HEAD -> master)
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 21:53:13 2020 -0700
+
+    Linear Regression model completed and Deep NN added
+
+commit cc2e80293b2667378111b9406b883a896dee0d06
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 16:24:52 2020 -0700
+
+    Adding linear regression model
+
+commit ba880afbb65c6eb30c348da3fb22e50dfbb4af90
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 15:57:20 2020 -0700
+
+    Data Analysis complete
+
+commit ad19124620c0d723029bf844269647d3344d6313
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 14:34:23 2020 -0700
+
+    Data Co-relation, NA and outlier detection
+
+commit 0f250558a8d0f75b5c22ea6959a5b65dfed48ccc
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 19:43:47 2020 -0700
+
+    second commit
+
+commit ba369fc63bdbe9aa02dae72ed40820d381d259b2
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 18:23:21 2020 -0700
+
+    Data Fetched
+
+commit fd31444d3ff2926655b1bb7a49d520ed2e3e0731 (HEAD -> master)
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 23:09:07 2020 -0700
+
+    Analysis completed DeepNN added and completed
+
+commit fb1945fef29c10b948fd5194f8f83a7e8cfa9b47
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 21:53:13 2020 -0700
+
+    Linear Regression model completed and Deep NN added
+
+commit cc2e80293b2667378111b9406b883a896dee0d06
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 16:24:52 2020 -0700
+
+    Adding linear regression model
+
+commit ba880afbb65c6eb30c348da3fb22e50dfbb4af90
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 15:57:20 2020 -0700
+
+    Data Analysis complete
+
+commit ad19124620c0d723029bf844269647d3344d6313
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 14:34:23 2020 -0700
+
+    Data Co-relation, NA and outlier detection
+
+commit 0f250558a8d0f75b5c22ea6959a5b65dfed48ccc
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 19:43:47 2020 -0700
+
+    second commit
+
+commit ba369fc63bdbe9aa02dae72ed40820d381d259b2
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 18:23:21 2020 -0700
+
+    Data Fetched
+$ git add .
+warning: LF will be replaced by CRLF in Notebooks/BikeShare_Project.ipynb.
+The file will have its original line endings in your working directory.
+
+HOME@DESKTOP-8BUIN09 MINGW64 /e/UNIVERSITY_OF_THE_PACIFIC/13 Week Assignment/Software Method/Bikeshare (master)
+$ git commit -m 'Analysis completed DeepNN added and completed'
+[master fd31444] Analysis completed DeepNN added and completed
+ 1 file changed, 656 insertions(+), 618 deletions(-)
+ rewrite Notebooks/BikeShare_Project.ipynb (69%)
+
+HOME@DESKTOP-8BUIN09 MINGW64 /e/UNIVERSITY_OF_THE_PACIFIC/13 Week Assignment/Software Method/Bikeshare (master)
+$ git log
+commit fd31444d3ff2926655b1bb7a49d520ed2e3e0731 (HEAD -> master)
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 23:09:07 2020 -0700
+
+    Analysis completed DeepNN added and completed
+
+commit fb1945fef29c10b948fd5194f8f83a7e8cfa9b47
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 21:53:13 2020 -0700
+
+    Linear Regression model completed and Deep NN added
+
+commit cc2e80293b2667378111b9406b883a896dee0d06
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 16:24:52 2020 -0700
+
+    Adding linear regression model
+
+commit ba880afbb65c6eb30c348da3fb22e50dfbb4af90
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 15:57:20 2020 -0700
+
+    Data Analysis complete
+
+commit ad19124620c0d723029bf844269647d3344d6313
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sun May 3 14:34:23 2020 -0700
+
+    Data Co-relation, NA and outlier detection
+
+commit 0f250558a8d0f75b5c22ea6959a5b65dfed48ccc
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 19:43:47 2020 -0700
+
+    second commit
+
+commit ba369fc63bdbe9aa02dae72ed40820d381d259b2
+Author: Devender Singh Parihar <devender197@gmail.com>
+Date:   Sat May 2 18:23:21 2020 -0700
+
+    Data Fetched
+
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+
+
+$ git commit -m 'README.md file has been added'
+[master e30f25f] README.md file has been added
+ 1 file changed, 407 insertions(+)
+ create mode 100644 README.md
+
+$ git remote add origin git@github.com:devender197/BikeShareProject.git
+
+$ git push -u origin master
+Enter passphrase for key '/c/Users/HOME/.ssh/id_rsa':
+Enumerating objects: 43, done.
+Counting objects: 100% (43/43), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (42/42), done.
+Writing objects: 100% (43/43), 6.02 MiB | 692.00 KiB/s, done.
+Total 43 (delta 17), reused 0 (delta 0)
+remote: Resolving deltas: 100% (17/17), done.
+To github.com:devender197/BikeShareProject.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'
+
+
+
+
+
+
+
